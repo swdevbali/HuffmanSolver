@@ -16,6 +16,6 @@ public class HuffmanSolver {
     public static void main(String[] args) {
         
         Huffman huffman = new Huffman("temui aku di kampus jam 7 pagi");
-        // TODO code application logic here
+        huffman.buildTree();
     }
 }
